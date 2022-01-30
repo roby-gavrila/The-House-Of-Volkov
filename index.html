@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>The Monk Diamond</title>
+		<style>
+			@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+			
+			*{
+				margin: 0;
+				padding: 0;
+				box-sizing: border-box;
+			}
+			
+			body{
+				font-family: Poppins, sans serif;
+				min-height: 100vh;
+			}
+		
+			.header{
+				width: 100%;
+				height: 200px;
+				background: url("diamondBanner.jpg");
+				background-size: cover;
+				background-repeat: no-repeat;
+				text-align: center;
+				overflow: hidden;
+				
+			}
+			
+			.title{
+				margin-top: 30px;
+				font-size: 4rem;
+			}
+			
+			.navbar{
+				width: 100%;
+				background-color: darkslategrey;
+				padding: 20px;
+				
+			}
+			
+			ul{
+				display: flex;
+				list-style-type: none;
+				
+			}
+			
+			ul li{
+				margin-right: 20px;
+				
+			}
+			
+			ul li a{
+				color: white;
+				text-decoration: none;
+			}
+			
+			ul li a:hover{
+				color: grey;
+			}
+			
+			.main{
+				padding: 50px;
+				text-align: center;
+			}
+			
+			.main p{
+				margin-bottom: 100px;
+				text-align: left;
+			}
+			
+			.main p::first-letter{
+				font-size: 2.5rem;
+			}
+			
+			.main button{
+				padding: 10px;
+				border: none;
+				border-radius: 3px;
+				background-color: darkslategrey;
+				color: white;
+				font-size: 1rem;
+				cursor: pointer;
+			}
+			
+			.main button:hover{
+				color:grey;
+			}
+			
+			.main button:active{
+				transform: scale(0.98);
+			}
+			
+			.footer{
+				position: absolute;
+				width: 100%;
+				bottom: 0;
+				padding: 10px;
+				text-align: center;
+			}
+		</style>
+		
+	</head>
+	<body>
+		<!--Header Banner-->
+		<header class="header">
+			<h1 class="title">The Monk Diamond</h1>
+			<h3>An extraordinary exhibition</h3>
+		</header>
+		
+		<!--The Menu Bar-->
+		<nav class="navbar">
+			<ul>
+				<li class="nav-item"><a href="diamond.html">The Diamond</a></li>
+				<li class="nav-item"><a href="discovery.html">Discovery</a></li>
+				<li class="nav-item"><a href="exhibition.html">Exhibition</a></li>
+				<li class="nav-item"><a href="volkov.html">The House of Volkov</a></li>
+			</ul>
+		</nav>
+		
+		<!--Main Body-->
+		<main class="main">
+			<p>The Monk Diamond is one of the rarest and most valuable diamonds in Europe. It has a fascinating history. It was owned by Russian nobility, stolen by a famous criminal gang and then found hidden in remote mountains in one of the most sensational disocveries of the century. Find out more about the Monk Diamond in this website or come and see it for yourself at the House of Volkov in Moscow. </p>
+			
+			<button>Visit The House Of Volkov</button>
+		</main>
+		
+		<!--Footer-->
+		<footer class="footer">
+			<p>Contact Professor Bairstone: profbairstone@intrepidexplorer.com</p>
+		</footer>
+		<script>
+		
+		</script>		
+	</body>
+</html>
